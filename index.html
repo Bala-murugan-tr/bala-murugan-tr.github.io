@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Welcome to the official portfolio of Bala Murugan, an Aspiring Scientist. Explore my projects, experience, and achievements. Get in touch for collaborations or opportunities." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.trgan.com" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="BalaMurugan - Data Scientist | Portfolio" />
+  <meta property="og:description"
+    content="Explore my data science portfolio showcasing projects in data science, data analysis, learning, AI, big data, and more." />
+  <meta property="og:url" content="https://www.trgan.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema Markup for Person -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "BalaMurugan",
+        "jobTitle": "Data Scientist",
+        "url": "https://www.trgan.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/bala-murugan-be",
+          "https://github.com/bala-murugan-be",
+          "https://instagram.com/trgan.bala"
+        ],
+        "mainEntityOfPage": "https://www.trgan.com",
+        "description": "BalaMurugan is a skilled data scientist with expertise in machine learning, data analysis, and artificial intelligence. Explore my portfolio to see my projects and experience.",
+        "email": "mailto:Balamurugan.BE@outlook.com"
+      }
+    </script>
+  <title>BalaMurugan | Portfolio</title>
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="mediaqueries.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="style.css" />
+  </noscript>
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">BalaMurugan</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about" title="Learn More About Me | Bala">About</a></li>
+        <li>
+          <a href="#experience" title="My Work Experience">Experience</a>
+        </li>
+        <li><a href="#projects" title="View my projects">Projects</a></li>
+        <li><a href="#contact" title="Get In Touch with Me">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Bala | Portfolio</div>
+    <div class="hamburger-menu" aria-label="Main Navigation" role="navigation" aria-expanded="false"
+      aria-controls="menu-links">
+      <div class="hamburger-icon" tabindex="0" onclick="toggleMenu()" aria-label="Toggle Menu" role="button"
+        aria-expanded="false" aria-controls="menu-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li>
+            <a href="#about" title="Learn More About Me | Bala" onclick="toggleMenu()">About</a>
+          </li>
+          <li>
+            <a href="#experience" title="My Work Experience" onclick="toggleMenu()">Experience</a>
+          </li>
+          <li>
+            <a href="#projects" title="View my projects" onclick="toggleMenu()">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" title="Get In Touch with Me" onclick="toggleMenu()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    <div class="section__pic-container">
+      <img src="./assets/mypic.webp" alt="Bala Murugan's profile picture" loading="lazy" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello I'm</p>
+      <h1 class="title">Bala Murugan</h1>
+      <p class="section__text__p2">Data Scientist</p>
+      <div class="btn-outer-container">
+        <div class="btn-container">
+          <a href="./assets/Balamurugan_Resume.pdf" download>
+            <button class="btn btn-color-2">Download CV</button>
+          </a>
+
+          <!-- <button class="btn btn-color-2" onclick="window.open('./assets/reume.pdf')">Download CV</button> -->
+          <button class="btn btn-color-1" onclick="location.href='.#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.github.com/bala-murugan-be" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/github.webp" alt="Bala Murugan's  GitHub profile" class="icon" loading="lazy" />
+        </a>
+        <a href="https://www.linkedin.com/in/bala-murugan-be/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/linkedin.webp" alt="Bala Murugan's  LinkedIn profile" class="icon" loading="lazy" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="assets/about-pic.webp" alt="Bala Murugan's profile picture" class="about-pic" loading="lazy" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="assets/experience.webp" alt="Experience icon" class="icon" loading="lazy" />
+            <h2>Experience</h2>
+            <p>4+ years <br />Selenium Automation Tester</p>
+          </div>
+          <div class="details-container">
+            <img src="assets/education.webp" alt="Education icon" class="icon" loading="lazy" />
+            <h2>Education</h2>
+            <p>Bachelor of Engineering<br />in Mechanical</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Experienced Selenium Automation Tester transitioning into Data
+            Science, driven by a passion for critical thinking, data-driven
+            solutions, and machine learning. With a strong foundation in
+            automated testing and software quality assurance, I am currently
+            enhancing my skills in data analysis, statistics, modeling, and
+            predictive analytics. I am open to opportunities in data science
+            where I can apply my diverse skill set, continuously learn, and
+            contribute to innovative projects. Feel free to connect with me.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='#certi'" loading="lazy" />
+  </section>
+  <section id="certi" class="section">
+    <p class="section__text__p1">Check my</p>
+    <h1 class="title">Certifications</h1>
+    <div class="certi-details-container">
+      <div class="certi-containers">
+        <div class="details-container">
+          <h2>IBM Data Science Professional Specialization</h2>
+          <p>
+            <a href="https://coursera.org/share/789ca4bd9c9fb10c75d0abfdac65c0df" target="_blank"
+              rel="noopener noreferrer">view certificate</a>
+          </p>
+        </div>
+        <div class="details-container">
+          <h2>Google Advanced Data Analytics Specialization</h2>
+          <p>pursuing</p>
+        </div>
+        <div class="details-container">
+          <h2>IBM Data Analysis Professional Specialization</h2>
+          <p>pursuing</p>
+        </div>
+      </div>
+    </div>
+
+    <img src="assets/arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'"
+      loading="lazy" />
+  </section>
+  <section id="projects" class="section">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="projects-containers">
+        <div class="projects-container color-container">
+          <div class="article-container">
+            <img src="assets/falcon9.webp" alt="Space X Falcon 9 prediction" class="project-img" loading="lazy" />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Falcon 9 Landing Prediction Project
+          </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/bala-murugan-be/SpaceX-Falcon-9-Landing-Prediction/blob/main/README.md', '_blank')">
+              GitHub
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='Not yet published'">
+                            Live Demo
+                        </button> -->
+          </div>
+        </div>
+        <div class="projects-container color-container">
+          <div class="article-container">
+            <img src="assets/survey.webp" alt="stack overflow project preview image" class="project-img"
+              loading="lazy" />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Survey Analysis [coming soon]
+          </h2>
+          <div class="btn-container">
+            <button disabled="true" class="btn project-btn">GitHub</button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='jjjjj'">
+                            Live Demo
+                        </button> -->
+          </div>
+        </div>
+        <div class="projects-container color-container">
+          <div class="article-container">
+            <img src="assets/project-3.webp" alt="project preview image" class="project-img" loading="lazy" />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            RTA [coming soon]
+          </h2>
+          <div class="btn-container">
+            <button disabled="true" class="btn project-btn">GitHub</button>
+
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='jjjjj'">
+                            Live Demo
+                        </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='#experience'"
+      loading="lazy" />
+  </section>
+  <section id="experience" class="section">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Data Science</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Scikit-Learn</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Seaborn</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Tensorflow</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Matplotlib</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Pandas</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Data Analysis</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Excel</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Pandas</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.webp" alt="Checkmark icon" class="icon" loading="lazy" />
+              <div>
+                <h3>Power BI</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'"
+      loading="lazy" />
+  </section>
+  <section id="contact" class="section">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="assets/linkedin.webp" alt="LinkedIn Icon" class="icon contact-icon" loading="lazy" />
+        <p>
+          <a href="https://www.linkedin.com/in/bala-murugan-be/" target="_blank"
+            rel="noopener noreferrer">BalaMurugan</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assets/email.webp" alt="Email Icon" class="icon contact-icon email-icon" loading="lazy" />
+        <p>
+          <a href="mailto:balamurugan.be@outlook.com">Balamurugan.BE@outlook.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li>
+            <a href="#about" title="Learn More About Me | Bala">About</a>
+          </li>
+          <li>
+            <a href="#experience" title="My Work Experience">Experience</a>
+          </li>
+          <li><a href="#projects" title="View my projects">Projects</a></li>
+          <li><a href="#contact" title="Get In Touch with Me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <p>&copy; 2025 Balamurugan | Aspiring Data Scientist | <a href="https://www.trgan.com" target="_blank">trgan.com</a>. All rights reserved.</p> -->
+
+    <p>
+      &copy; 2025 <span class="name">Balamurugan</span> |
+      <span class="job">Aspiring Data Scientist</span> |
+      <a href="https://www.trgan.com" target="_blank" rel="noopener noreferrer">trgan.com</a>
+      | All Rights Reserved.
+    </p>
+  </footer>
+  <script src="assets/particles.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
